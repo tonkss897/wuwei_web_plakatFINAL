@@ -392,106 +392,13 @@
   animation-play-state: running; 
 }
 
-/* .trio {
-  height: 50vw;
-  display: flex;
-  justify-content: center;
-  gap: 6vw;
-  margin: 6vw 0;
-}
-
-.first,
-.second,
-.third {
-  position: relative;
-  width: 25vw;
-  height: 32vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.circlefon,
-.circlefon2,
-.circlefon3 {
-  width: 25vw;
-  height: 25vw;
-  le
-} */
 
 
-/* .circlefon {
-    position: relative;
-    width: 25vw;
-    height: 25vw;
-  }
 
-  .circlefon2 {
-    position: relative;
-    left: -30%;
-    width: 25vw;
-    height: 25vw;
-  }
-
-  .circlefon3 {
-    position: relative;
-    left: -2%;
-    width: 25vw;
-    height: 25vw;
-  } */
-
- /* .discipline,
-.power,
-.harmony {
-  position: absolute;
-  width: 25vw;
-  height: 25vw;
-  top: 0;
-  left: 0;
-} */
-
-  /* .discipline{
-    width: 25vw;
-    height: 25vw;
-    left: 6%;
-  }
-
-  .power{
-    width: 25vw;
-    height: 25vw;
-    left: 38%;
-  }
-
-  .harmony{
-    width: 25vw;
-    height: 25vw;
-    left: 70%;
-  } */
+ 
 
   
-  /* .disciplinetext {
-    position: relative;
-    margin: 6vw 0 0 0;
-    height: 10vw;
-    width: 20vw;
-  }
-
-  .powertext {
-     position: relative;
-    margin: 6vw 0 0 0;
-    height: 9vw;
-    width: 20vw;
-  }
-
-  .harmonytext {
-   position: relative;
-    margin: 6vw 0 0 0;
-    height: 10vw;
-    width: 45vw;
-  } */
-
-}
-
+  
 
 
 @media screen and (min-width: 769px) and (max-width:  1366px) {
