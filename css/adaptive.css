@@ -390,6 +390,8 @@
 
 .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12, .p13, .p14, .p15, .p16, .p17, .p18 {
   animation-play-state: running; 
+
+}
 }
 
 
@@ -403,6 +405,150 @@
 
 @media screen and (min-width: 769px) and (max-width:  1366px) {
 /*  планшет про */
+  .monitor2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column1,
+  .krest,
+  .column3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .dzen {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .panda {
+    width: 85%;
+    height: 85%;
+    left: 7%;
+    top: 7%;
+  }
+
+  .elipse {
+  left: 9vw;
+  width: 33vw;
+  top:30% ;
+}
+
+  .text_dzen {
+    width: 12vw;
+    top: 45%;
+    left: 51%;
+    transform: translateX(-50%);
+  }
+
+  .wings {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .shape{
+    width: 50vw;
+    height: 65vw;
+    top: 50%;
+    left: -40%;
+  }
+
+  .shape2 {
+    width: 50vw;
+    height: 65vw;
+     top: 50%;
+     right: -40%;
+  }
+
+.column2{
+    width: 100vw;
+  height: 40vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .krest {
+    height: 100vw;
+    width: 45vw;
+    transform: rotate(90deg);
+  }
+
+  .ieroglif1{
+    width: 35%;
+  }
+  .ieroglif2,
+  .ieroglif4 {
+    width: 40%;
+  }
+  .ieroglif3{
+    width: 35%;
+  }
+
+
+ @keyframes vzhuh {
+   0%   { top: 30%;   left: 37%; }
+   30%  { top: 5%;  left: 37%; }
+   60%  { top: 5%;  left: 37%; }
+   100% { top: 30%;   left: 37%; }
+}
+
+@keyframes vzhuh2 {
+   0%   { top: 42%;  left: 40%; }
+   30%  { top: 42%;  left: 60%; }
+   60%  { top: 42%;  left: 60%; }
+   100% { top: 42%;  left: 40%; }
+}
+
+@keyframes vzhuh3 {
+   0%   { top: 53%;   left: 35%; }
+   30%  { top: 70%;   left: 35%; }
+   60%  { top: 70%;   left: 35%; }
+   100% { top: 55%;   left: 35%; }
+}
+
+@keyframes vzhuh4 {
+   0%   { top: 42%;  left: 20%; }
+   30%  { top: 42%;  left: 5%; }
+   60%  { top: 42%;  left: 5%; }
+   100% { top: 42%;  left: 20%; }
+}
+
+
+  .column3 {
+    align-items: center;
+  }
+
+  .minipanda{
+    width: 50vw;
+    height: 40vw;
+  }
+
+  .substract {
+  width:50vw;
+  height: 40vw;
+ }
+
+  .bit {
+    width: 50vw;
+    height: 40vw;
+  }
+
+  .zagagulina {
+    width: 25vw; 
+  }
+
+  .poza {
+  left: 2vw;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12, .p13, .p14, .p15, .p16, .p17, .p18 {
+  animation-play-state: running; 
+}
+
 
  
 
