@@ -1,0 +1,515 @@
+@media screen and (min-width: 1px) and (max-width: 450px)  {
+/*  мобилка  */
+
+
+.wu_wei{
+  flex-direction: column;
+   align-items: center;
+}
+
+.wu, .wei {
+  width: 115vw;
+  height: 115vw;
+}
+
+
+.stroka {
+    height: 12vw;
+}
+
+.text_str {
+  margin-top: 2vw;
+}
+
+.monitor2 {
+  flex-direction: column-reverse;
+}
+
+.minipanda{
+  width: 100vw;
+  height: 60vw;
+}
+
+ .substract {
+  width:100vw;
+  height: 60vw;
+  left: -3%;
+ }
+
+ .bit{
+  width: 100vw ;
+  height: 100vw;
+ }
+
+.zagagulina {
+  position: absolute;
+  width: 40vw; 
+  height: 40vw;
+}
+
+@keyframes bounce {
+     0%   { top: -10%; left: 0%; }
+    25%  { top: 25%; left: 45%; }
+    50%  { top: 55%; left: 0%; }
+    75%  { top: 70%; left: 45%; }
+    90% { top: 75%; left: 40%; }
+    100% { top: -10%; left: 0%;  }
+}
+
+@keyframes move2 {
+ 0%   { top: 20%; left: 0%; }
+ 33%  { top: 75%; left: 50%; }
+ 66%  { top: 20%; left: 50%; }
+ 100% { top: 20%; left: 0%; }
+}
+
+@keyframes move3 {
+   0%   { top: -10%; left: 0%; }
+   30%  { top: 0%; left: 45%; }
+   60%  { top: 75%; left: 45%; }
+   100% { top: -10%; left: 0%; }
+}
+
+
+ .krest{
+  width: 100vw  ;
+  height: 150vw;
+ }
+
+
+ @keyframes vzhuh {
+   0%   { top: 25%;   left: 35%; }
+   30%  { top: 5%;  left: 30%; }
+   60%  { top: 5%;  left: 30%; }
+   100% { top: 25%;   left: 35%; }
+}
+
+@keyframes vzhuh2 {
+   0%   { top: 40%;  left: 45%; }
+   30%  { top: 40%;  left: 65%; }
+   60%  { top: 40%;  left: 65%; }
+   100% { top: 40%;  left: 45%; }
+}
+
+
+.dzen {
+  width: 100vw;
+  height: 80vw;
+  overflow: hidden;
+ }
+
+ .panda {
+  left: 15vw;
+  top: 5vw;
+  height: 70vw;
+  width: 70vw;
+ }
+
+ .elipse{
+  margin-left: 18vw;
+  width: 50vw;
+ }
+
+ .text_dzen {
+  left: 43vw;
+  width: 14vw;
+  height: auto;
+  top: 45%;
+}
+
+ .wings{
+  width: 100vw;
+  height: 60vw;
+ }
+
+ .shape {
+    width: 80vw;
+    height: 80vw;
+    left: -27vw;
+ }
+
+ .shape2{
+    width: 80vw;
+    height: 80vw;
+    right: -28vw;
+ }
+
+ .BIGpanda {
+  width: 100vw;
+  height: 70vw;
+ }
+
+ .poza {
+  left: 2vw;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12, .p13, .p14, .p15, .p16, .p17, .p18 {
+  animation-play-state: running; 
+}
+
+.second {
+  width: 100%;
+} 
+
+  .trio {
+    flex-direction: column;
+    height: auto;
+    padding: 10vw 0;
+    align-items: center;
+  }
+
+  .first,
+  .second,
+  .third {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 14vw;
+  }
+
+  
+  .circlefon,
+  .circlefon2,
+  .circlefon3 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 55vw;
+    height: 55vw;
+  }
+
+ 
+  .discipline,
+  .power,
+  .harmony {
+    top: 0;
+    left: 22vw;
+    width: 55vw;
+    height: 55vw;
+  }
+
+  
+  .disciplinetext {
+    position: relative;
+    margin: 6vw 0 0 0;
+    height: 10vw;
+    width: 45vw;
+  }
+
+  .powertext {
+     position: relative;
+    margin: 6vw 0 0 0;
+    height: 9vw;
+    width: 20vw;
+  }
+
+  .harmonytext {
+   position: relative;
+    margin: 6vw 0 0 0;
+    height: 10vw;
+    width: 45vw;
+  }
+
+
+
+
+  .podval{
+  position: relative;
+  width: 100vw;
+  height: 40vw;
+  background-color: #000000;
+  display: flex;
+  overflow: hidden;
+}
+
+.steblyukantonina{
+  top: 10vw;
+  width: 70vw;
+  height: 7vw;
+  left: 15.5vw;
+}
+
+.group{
+  position: absolute;
+  top: 19vw;
+  width: 20vw;
+  height: 6vw;
+  left: 40vw;
+}
+
+}
+
+
+
+@media screen and (min-width: 451px) and (max-width: 768px) {
+/*    планшет мини */
+
+
+.monitor2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column1,
+  .krest,
+  .column3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .dzen {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .panda {
+    width: 85%;
+    height: 85%;
+    left: 7%;
+    top: 7%;
+  }
+
+  .elipse {
+  left: 9vw;
+  width: 33vw;
+  top:30% ;
+}
+
+  .text_dzen {
+    width: 12vw;
+    top: 45%;
+    left: 51%;
+    transform: translateX(-50%);
+  }
+
+  .wings {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .shape{
+    width: 50vw;
+    height: 65vw;
+    top: 50%;
+    left: -40%;
+  }
+
+  .shape2 {
+    width: 50vw;
+    height: 65vw;
+     top: 50%;
+     right: -40%;
+  }
+
+.column2{
+    width: 100vw;
+  height: 40vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .krest {
+    height: 100vw;
+    width: 45vw;
+    transform: rotate(90deg);
+  }
+
+  .ieroglif1{
+    width: 35%;
+  }
+  .ieroglif2,
+  .ieroglif4 {
+    width: 40%;
+  }
+  .ieroglif3{
+    width: 35%;
+  }
+
+
+ @keyframes vzhuh {
+   0%   { top: 30%;   left: 37%; }
+   30%  { top: 5%;  left: 37%; }
+   60%  { top: 5%;  left: 37%; }
+   100% { top: 30%;   left: 37%; }
+}
+
+@keyframes vzhuh2 {
+   0%   { top: 42%;  left: 40%; }
+   30%  { top: 42%;  left: 60%; }
+   60%  { top: 42%;  left: 60%; }
+   100% { top: 42%;  left: 40%; }
+}
+
+@keyframes vzhuh3 {
+   0%   { top: 53%;   left: 35%; }
+   30%  { top: 70%;   left: 35%; }
+   60%  { top: 70%;   left: 35%; }
+   100% { top: 55%;   left: 35%; }
+}
+
+@keyframes vzhuh4 {
+   0%   { top: 42%;  left: 20%; }
+   30%  { top: 42%;  left: 5%; }
+   60%  { top: 42%;  left: 5%; }
+   100% { top: 42%;  left: 20%; }
+}
+
+
+  .column3 {
+    align-items: center;
+  }
+
+  .minipanda{
+    width: 50vw;
+    height: 40vw;
+  }
+
+  .substract {
+  width:50vw;
+  height: 40vw;
+ }
+
+  .bit {
+    width: 50vw;
+    height: 40vw;
+  }
+
+  .zagagulina {
+    width: 25vw; 
+  }
+
+  .poza {
+  left: 2vw;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12, .p13, .p14, .p15, .p16, .p17, .p18 {
+  animation-play-state: running; 
+}
+
+/* .trio {
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  gap: 6vw;
+  margin: 6vw 0;
+}
+
+.first,
+.second,
+.third {
+  position: relative;
+  width: 25vw;
+  height: 32vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circlefon,
+.circlefon2,
+.circlefon3 {
+  width: 25vw;
+  height: 25vw;
+  le
+} */
+
+
+/* .circlefon {
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .circlefon2 {
+    position: relative;
+    left: -30%;
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .circlefon3 {
+    position: relative;
+    left: -2%;
+    width: 25vw;
+    height: 25vw;
+  } */
+
+ /* .discipline,
+.power,
+.harmony {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  top: 0;
+  left: 0;
+} */
+
+  /* .discipline{
+    width: 25vw;
+    height: 25vw;
+    left: 6%;
+  }
+
+  .power{
+    width: 25vw;
+    height: 25vw;
+    left: 38%;
+  }
+
+  .harmony{
+    width: 25vw;
+    height: 25vw;
+    left: 70%;
+  } */
+
+  
+  /* .disciplinetext {
+    position: relative;
+    margin: 6vw 0 0 0;
+    height: 10vw;
+    width: 20vw;
+  }
+
+  .powertext {
+     position: relative;
+    margin: 6vw 0 0 0;
+    height: 9vw;
+    width: 20vw;
+  }
+
+  .harmonytext {
+   position: relative;
+    margin: 6vw 0 0 0;
+    height: 10vw;
+    width: 45vw;
+  } */
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width:  1366px) {
+/*  планшет про */
+
+ 
+
+}
+
+@media screen and (min-width:  1366px) and (max-width: 1440px) {
+/* маленькие ноуты */
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+/* desctop */
+}
+
+
+/* @media screen and (min-width: 1921px) {
+Дополнительно большие экраны } 
+Ориентация добавляется по необходимости и доп диапазоны тоже */
